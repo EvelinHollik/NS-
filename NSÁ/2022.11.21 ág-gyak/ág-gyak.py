@@ -19,9 +19,11 @@ def HoE(a):
     return b
 
 cim=input("Cim:")
-oldal=int(input("oldalak: "))
-old=HoE(oldal)
-if old:
-    print("A könyv hosszú")
-elif
-    print("A könyv rövid")
+while(cim!=""):
+    oldal=int(input("oldalak: "))
+    old=HoE(oldal)
+    if old:
+        print("A könyv hosszú")
+    else:
+        print("A könyv rövid")
+    cim=input("cim")
